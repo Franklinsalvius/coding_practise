@@ -1,0 +1,46 @@
+useful functions in java
+
+
+*********ARRAY FUNCTIONS**********
+
+import java.util.Arrays;
+Arrays.copyOf(a,a.length);
+This Arrays.copyOf() is used to copy an array in another array.
+
+Arrays.sort()
+It is used to sort the array
+
+int[] arr=str.toCharArray();
+str is a srting .The above line will store the str as chararray in arr
+
+
+
+
+Math.max()
+
+(Ex)max_sum=Math.max(max_sum,sum);
+return the max value
+
+int max= Integer.MIN_VALUE;
+int max2=Integer.MIN_VALUE;
+
+***********STRING FUNCTIONS**********
+
+str.split(" ");
+It is used to split the string based on the delimitters
+
+example
+		String str;
+		String[] s;
+		str=sc.nextLine();
+		s=str.split(" ");##this line split the string based on the delimitters and store in a array
+		Here s is an array
+		
+		
+String str=Integer.toString(number);
+
+The above line will convert the int(number) to string
+
+Integer.parseInt();
+It is used to convert string to int	
+		
